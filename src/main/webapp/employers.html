@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Add Job | Job Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="banner">
+		Add Job
+		<div>
+			<a href="index.html" class="link">For Students</a>
+		</div>
+	</div>
+	<div class="jobs back-img">
+	<div id="res" class="success-msg"></div>
+		<div class="add-job">
+			<div class="details">
+				<span class="form-heading">Company Details</span>
+				<form id="jobForm" method="post">
+					<div>
+						<input type="text" placeholder="Company name" name="company_name"
+							required>
+					</div>
+					<div>
+						<input type="text" placeholder="Position" name="position" required>
+					</div>
+					<div>
+						<input type="text" placeholder="Experience" name="experience">
+					</div>
+					<div>
+						<input type="text" placeholder="Location" name="location">
+					</div>
+					<div>
+						<input type="text" placeholder="Skills" name="skills">
+					</div>
+					<div>
+						<input class="button" type="submit" value="Add">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/employers.js"></script>
+</html>

@@ -1,0 +1,123 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.banner {
+	background-color: #94bdce;
+	height: 120px;
+	width: 100%;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 30px;
+	color: #e8ebf5;
+	background-image: url(../img/banner.png);
+	background-size: 100%;
+}
+
+.link {
+	padding: 8px 0px;
+	float: right;
+	width: 130px;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+.link:visited {
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.link:active {
+	text-decoration: underline;
+}
+
+.jobs {
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.back-img {
+	background-image: url("../img/background.jpeg");
+	background-size: 100%;
+}
+
+.company-name {
+	color: #283565;;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 5px;
+}
+
+.job-details {
+	width: 60%;
+	margin: 25px auto;
+	box-shadow: 5px 5px 20px #0007;
+	padding: 30px;
+	border-radius: 10px;
+	font-size: 16px;
+	color: #4c5158;
+	background: #f9f9f9;
+}
+
+.icon {
+	width: 14px;
+	margin-right: 10px;
+}
+
+.form-heading {
+	color: #283565;
+	font-size: 16px;
+}
+
+.add-job {
+	padding: 30px;
+	box-shadow: 5px 5px 10px #0007;
+	width: 50%;
+	margin: 20px auto;
+	border-radius: 10px;
+	background: #f9f9f9;
+}
+
+.add-job input, .add-jobt input:focus {
+	border: 1px solid #d9dce8;
+	outline: none;
+	width: 100%;
+	margin: 20px auto;
+	padding: 10px 20px;
+	border-radius: 10px;
+	box-shadow: 1px 0px 10px #dfe3e6;
+}
+
+.add-job input:focus {
+	box-shadow: 1px 0px 5px #94bdce;
+}
+
+.add-job .button {
+	border: none;
+	background-color: #94bdce;
+	cursor: pointer;
+}
+
+.add-job .button:hover {
+	box-shadow: 5px 5px 15px #676869;
+}
+
+.success-msg {
+	text-align: center;
+    color: #418a00;
+    font-size: 15px;
+}
